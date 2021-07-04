@@ -1,0 +1,85 @@
+.navigation .logo-anchor {
+	display: flex;
+}
+
+.services {
+	padding-top: 140px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.services img {
+	width: 100%;
+	border: 2px solid darkslategrey;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.services h1 {
+	font-size: 2em;
+}
+
+.learning {
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+}
+
+.learning .row {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.learning .column {
+	width: 50%;
+	background-color: lightsteelblue;
+	padding: 15px;
+	border: 1px solid black;
+	margin: 0 10px;
+}
+
+.learning .column button {
+	margin-top: 15px;
+	border: 1px solid black;
+	padding: 5px 25px;
+	border-radius: 5px;
+	transition: 0.1s;
+}
+
+.learning .column button:hover {
+	border: 1px solid blue;
+	background: cornflowerblue;
+	color: chartreuse;
+}
+
+.facts {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.facts aside {
+	padding-right: 5%;
+	flex: 1;
+	margin-bottom: 15px;
+}
+
+.facts ul {
+	margin-top: 25px;
+	line-height: 1.5em;
+	list-style-position: inside;
+}
+
+.facts li {
+	list-style-type: square;
+}
+
+.facts img {
+	border: 2px solid darkslategrey;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 433px) {
+	.navigation .logo-anchor {
+		align-self: center;
+	}
+}
